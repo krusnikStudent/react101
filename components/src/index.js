@@ -9,7 +9,7 @@ const App = () => {
         <div className="ui container comments">
             <ApprovalCard >
                 <CommentDetail author="Sam" 
-                    timeAgo="Today at 4:45PM" 
+                    timeAgo="Today at 4:55PM" 
                     avatar={faker.image.avatar()} 
                     comments="So rad, dude!" 
                 />
@@ -18,7 +18,7 @@ const App = () => {
             <ApprovalCard>
                 <CommentDetail 
                     author="Alex" 
-                    timeAgo="Today at 2:01AM" 
+                    timeAgo="Today at 2:22AM" 
                     avatar={faker.image.avatar()} 
                     comments="Awesome blog post!" 
                 />
@@ -27,7 +27,7 @@ const App = () => {
             <ApprovalCard>
                 <CommentDetail 
                     author="Jane" 
-                    timeAgo="Yesterday at 3:03PM" 
+                    timeAgo="Yesterday at 3:13PM" 
                     avatar={faker.image.avatar()} 
                     comments="When's the next one?" 
                 />
